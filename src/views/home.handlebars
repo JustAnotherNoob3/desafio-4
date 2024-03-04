@@ -1,0 +1,13 @@
+<h2>Products:</h2>
+<dl>
+    <ul>
+    {{#each product}}
+    <div id={{id}}>
+    <li><dt><b>{{title}}</b></dt></li>
+    {{#each pair}}
+    <dd>{{key}}: {{value}}</dd>
+    {{/each}}
+    </div>
+    {{/each}}
+    </ul>
+</dl>
