@@ -7,7 +7,7 @@ import handlebars from "express-handlebars";
 import { Server } from 'socket.io';
 import socketServerController from './socketServerController.js';
 
-const port = 8030;
+const port = 8080;
 const app = express();
 
 //main
